@@ -1,0 +1,41 @@
+.flex-container {
+  display: flex;
+  border: 2px solid gray;
+  height: 300px;
+  /* flex-direction: column; */
+  /* flex-direction: row; */
+  /* flex-direction: column-reverse; */
+  /* flex-direction: row-reverse; */
+  justify-content: center;
+  /* justify-content: flex-end; */
+  /* justify-content: flex-start; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  /* align-items: flex-end; */
+  /* align-items: flex-start; */
+
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap-reverse; */
+}
+
+.flex-item {
+  background-color: blueviolet;
+  border: 2px solid black;
+  margin: 5px;
+  width: 80px;
+  height: 100px;
+}
+
+#flexItem1 {
+  /* flex-grow: 2; */
+  flex-shrink: 5;
+}
+
+#flexItem2 {
+  /* flex-grow: 3; */
+}
+
+ul {
+  list-style-position: inside;
+  list-style-image: url("./sqpurple.gif");
+}

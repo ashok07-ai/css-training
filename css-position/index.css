@@ -1,0 +1,36 @@
+.container {
+  background-color: bisque;
+  border: 2px solid black;
+  height: 1000px;
+}
+
+.box {
+  border: 2px solid red;
+  width: 100px;
+  height: 100px;
+  margin: 2px;
+  display: inline-block;
+}
+
+/* #box-three {
+  position: relative;
+  top: 15px;
+  left: 15px;
+} */
+
+/* #box-four {
+  position: absolute;
+  top: 35px;
+  left: 35px;
+} */
+
+#box-one {
+  position: fixed;
+  right: 4px;
+  bottom: 5px;
+}
+
+#box-two {
+  position: sticky;
+  top: 5px;
+}

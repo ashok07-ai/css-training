@@ -1,0 +1,44 @@
+/* exmaple of width */
+/* .agreement-one {
+  width: 1000px;
+  margin: auto;
+  border: 2px solid #094cdf;
+} */
+
+/* example of max-width */
+/* .agreement-two {
+  max-width: 1000px;
+  margin: auto;
+  border: 2px solid #094cdf;
+} */
+
+#details {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+  background-color: aliceblue;
+}
+
+#details td {
+  border: 2px solid rgb(116, 115, 115);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#details th {
+  background-color: cadetblue;
+  padding: 10px;
+  text-transform: uppercase;
+  color: white;
+}
+
+#details tr:nth-child(even) {
+  background-color: darkgray;
+}
+#details tr:hover {
+  background-color: darksalmon;
+  color: white;
+}
